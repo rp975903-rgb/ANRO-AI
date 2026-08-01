@@ -1,0 +1,37 @@
+{
+    "document": {
+        "document_id": "4dc843e1-989a-4984-9414-a334854c5dbb",
+        "filename": "sample.txt",
+        "file_type": "txt",
+        "file_path": "data\\documents\\sample.txt",
+        "status": "processed",
+        "created_at": "2026-07-27T19:23:34",
+        "total_chunks": 2
+    },
+    "chunks": [
+        {
+            "chunk_id": "c043eede-524f-47fe-829f-814b946a4ee0",
+            "document_id": "4dc843e1-989a-4984-9414-a334854c5dbb",
+            "chunk_index": 0,
+            "text": "NEXUS AI is an intelligent multi-agent system.\n\nThe system can process documents,\nanalyze datasets,\nperform natural language processing,\nand provide intelligent responses.\n\nThis document is used to test\nthe document ingestion pipeline.",
+            "start_position": 0,
+            "end_position": 236,
+            "metadata": {
+                "chunk_size": 235,
+                "document_id": "4dc843e1-989a-4984-9414-a334854c5dbb"
+            }
+        },
+        {
+            "chunk_id": "307c0c0f-69aa-4d18-b497-b220b4bc74b1",
+            "document_id": "4dc843e1-989a-4984-9414-a334854c5dbb",
+            "chunk_index": 1,
+            "text": "is used to test\nthe document ingestion pipeline.",
+            "start_position": 186,
+            "end_position": 236,
+            "metadata": {
+                "chunk_size": 48,
+                "document_id": "4dc843e1-989a-4984-9414-a334854c5dbb"
+            }
+        }
+    ]
+}
